@@ -48,7 +48,7 @@ function PayMaintenance(props) {
             <div className="max-w-full overflow-x-auto">
               <table className="table-auto w-full">
                 <thead>
-                  <tr className="bg-blue-500 text-center">
+                  <tr className="bg-vapru-500 text-center">
                     {maintenanceHeader.map((ele, index) => {
                       return (
                         <th
@@ -128,7 +128,7 @@ function PayMaintenance(props) {
                     >
                       {!isPaid ? (
                         <button
-                          className="px-6 py-2 font-semibold text-white bg-blue-500 rounded-md focus:bg-blue-600 focus:outline-none hover:bg-white hover:text-blue-500 transition-all duration-300 hover:border-blue-500 border-transparent border-2"
+                          className="px-6 py-2 font-semibold text-white bg-vapru-500 rounded-md focus:bg-vapru-600 focus:outline-none hover:bg-white hover:text-vapru-500 transition-all duration-300 hover:border-vapru-500 border-transparent border-2"
                           onClick={() => {
                             setIsPaid(!isPaid);
                           }}

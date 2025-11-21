@@ -27,7 +27,7 @@ function TenantDetails(props) {
             <div className="max-w-full overflow-x-auto">
               <table className="table-auto w-full">
                 <thead>
-                  <tr className="bg-blue-500 text-center">
+                  <tr className="bg-vapru-500 text-center">
                     {header.map((ele, index) => {
                       return (
                         <th

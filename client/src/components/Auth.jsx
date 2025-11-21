@@ -90,9 +90,9 @@ function Auth(props) {
       <div className="flex items-center min-h-screen z-50">
         <div className="container mx-auto">
           <div className="max-w-md mx-auto my-10">
-            <div className="text-center">
+              <div className="text-center">
               <h1 className="my-3 text-3xl font-semibold text-gray-700 ">
-                Jasmine Towers
+                Vapru
               </h1>
             </div>
             <div className="m-7">
@@ -158,7 +158,7 @@ function Auth(props) {
                 <div className="mb-6">
                   <button
                     type="submit"
-                    className="w-full px-3 py-3 font-semibold text-white bg-blue-500 rounded-md focus:bg-blue-600 focus:outline-none hover:bg-white hover:text-blue-500 transition-all duration-300 hover:border-blue-500 border-transparent border-2"
+                    className="w-full px-3 py-3 font-semibold text-white bg-vapru-500 rounded-md focus:bg-vapru-600 focus:outline-none hover:bg-white hover:text-vapru-500 transition-all duration-300 hover:border-vapru-500 border-transparent border-2"
                   >
                     Sign in
                   </button>

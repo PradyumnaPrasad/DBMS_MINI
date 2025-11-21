@@ -50,7 +50,7 @@ function Particle() {
             value: "#0d47a1",
           },
           links: {
-            color: "#0d47a1",
+            color: "#eb6f69",
             distance: 150,
             enable: true,
             opacity: 0.5,

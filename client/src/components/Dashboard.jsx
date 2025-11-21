@@ -83,7 +83,7 @@ function Dashboard(props) {
         {forBox &&
           forBox.map((ele, index) => {
             return (
-              <div key={index + 1} className=" p-3 border-2 border-blue-500">
+              <div key={index + 1} className=" p-3 border-2 border-vapru-500">
                 <h1 className="font-bold text-xl text-center">
                   {Object.values(forBox[index])}
                 </h1>
@@ -95,7 +95,7 @@ function Dashboard(props) {
           })}
       </div>
       <div className="p-10 -mt-14">
-        <div className="border-2 border-blue-500 p-5 ">
+        <div className="border-2 border-vapru-500 p-5 ">
           <div>
             <h1 className="text-center font-semibold">
               Apartment Rules and Regulation

@@ -120,7 +120,7 @@ function RaisingComplaints() {
               className="w-full font-serif  border-2 p-4  outline-none rounded-md"
             ></textarea>
           </div>
-          <button className="my-2 px-6 py-2 mx-auto block rounded-md text-lg font-semibold text-white hover:bg-white hover:text-blue-500 border-2 border-blue-500 transition-all duration-200 bg-blue-500">
+          <button className="my-2 px-6 py-2 mx-auto block rounded-md text-lg font-semibold text-white hover:bg-white hover:text-vapru-500 border-2 border-vapru-500 transition-all duration-200 bg-vapru-500">
             Add Complaint
           </button>
         </div>

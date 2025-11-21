@@ -84,7 +84,7 @@ function CreatingParkingSlot() {
               <div className="mb-6">
                 <button
                   type="submit"
-                  className="w-full px-3 py-3  text-white bg-blue-500 rounded-md focus:bg-blue-600 focus:outline-none hover:bg-white hover:text-blue-500 transition-all duration-300 hover:border-blue-500 border-transparent border-2"
+                  className="w-full px-3 py-3  text-white bg-vapru-500 rounded-md focus:bg-vapru-600 focus:outline-none hover:bg-white hover:text-vapru-500 transition-all duration-300 hover:border-vapru-500 border-transparent border-2"
                 >
                   Book slot
                 </button>

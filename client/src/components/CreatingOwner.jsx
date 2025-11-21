@@ -217,7 +217,7 @@ function CreatingUser() {
         </div>
 
         <div className="flex w-full">
-          <button className="mx-auto hover:shadow-form  py-3 px-8 text-white bg-blue-500 rounded-md focus:bg-blue-600 focus:outline-none hover:bg-white hover:text-blue-500 transition-all duration-300 hover:border-blue-500 border-transparent border-2">
+          <button className="mx-auto hover:shadow-form  py-3 px-8 text-white bg-vapru-500 rounded-md focus:bg-vapru-600 focus:outline-none hover:bg-white hover:text-vapru-500 transition-all duration-300 hover:border-vapru-500 border-transparent border-2">
             Submit
           </button>
         </div>
