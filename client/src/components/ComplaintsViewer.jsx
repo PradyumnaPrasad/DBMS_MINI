@@ -7,7 +7,7 @@ function ComplaintsViewer(props) {
 
   const getComplaints = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/viewcomplaints");
+      const res = await axios.get("http://localhost:5001/viewcomplaints");
       setComps(res.data);
     } catch (err) {
       console.log(err);

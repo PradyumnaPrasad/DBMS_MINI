@@ -9,7 +9,7 @@ function CreatingParkingSlot() {
 
   const createSlot = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/bookslot", {
+      const res = await axios.post("http://localhost:5001/bookslot", {
         roomNo: roomNo,
         slotNo: slotNo,
       });

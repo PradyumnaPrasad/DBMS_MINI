@@ -14,7 +14,7 @@ function RaisingComplaints() {
 
   const raiseComplaint = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/raisingcomplaint", {
+      const res = await axios.post("http://localhost:5001/raisingcomplaint", {
         blockno: blockno,
         roomno: roomno,
         tenantId: tenantId,

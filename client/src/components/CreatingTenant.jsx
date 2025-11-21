@@ -21,7 +21,7 @@ function CreatingTenant() {
 
   const createTenant = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/createtenant", {
+      const res = await axios.post("http://localhost:5001/createtenant", {
         name: name,
         age: age,
         roomno: roomno,

@@ -8,7 +8,7 @@ function TenantDetails(props) {
 
   const getTenantRows = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/tenantDetails");
+      const res = await axios.get("http://localhost:5001/tenantDetails");
       setTenantRows(res.data);
     } catch (error) {
       console.log(error);

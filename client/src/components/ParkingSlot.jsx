@@ -6,7 +6,7 @@ function ParkingSlot(props) {
 
   const slots = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/viewparking", {
+      const res = await axios.post("http://localhost:5001/viewparking", {
         userId: JSON.parse(localStorage.getItem("whom")).username,
       });
       setParkingSlot(res.data);

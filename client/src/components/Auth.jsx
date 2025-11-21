@@ -40,7 +40,7 @@ function Auth(props) {
 
   const authorize = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/auth", {
+      const res = await axios.post("http://localhost:5001/auth", {
         username: userId,
         password: password,
       });

@@ -6,7 +6,7 @@ const cors = require("cors")
 
 
 //port number to listen
-const port = 5000;
+const port = 5001;
 
 //init
 const app = express();
@@ -122,7 +122,7 @@ app.post('/createtenant',function(req,res){
 //creates owner in owner table
 app.post('/createowner',(req,res)=>
 {
-  const ownerid = req.body.ownerId;
+  const ownerid = parseInt(req.body.ownerId);
     const name = req.body.name;
     const age = req.body.age;
     const aggrement_status = req.body.aggrementStatus;

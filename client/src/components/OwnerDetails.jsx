@@ -14,7 +14,7 @@ function OwnerDetails(props) {
 
   const getOwnerData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/ownerdetails");
+      const res = await axios.get("http://localhost:5001/ownerdetails");
       setOwnerRows(res.data);
     } catch (error) {
       console.log(error);
